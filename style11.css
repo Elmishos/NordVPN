@@ -1,0 +1,266 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: orange;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: darkorange;
+}
+
+/* Experience Section */
+.experience {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.experience-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.experience-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.experience-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* Features */
+.features {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature {
+    flex-basis: 300px;
+    text-align: center;
+}
+
+.feature img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Pricing */
+.pricing {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.plan {
+    flex-basis: 300px;
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.plan h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.plan .price {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.plan ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.plan ul li {
+    margin-bottom: 10px;
+}
+
+.plan .cta-button {
+    display: block;
+    margin-top: 20px;
+    background-color: orange;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.plan .cta-button:hover {
+    background-color: darkorange;
+}
+
+.most-popular {
+    border: 2px solid orange;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+/* Additional Text */
+.additional-text {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.additional-text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.additional-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Disclaimer */
+.disclaimer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    font-size: 14px;
+    color: #999;
+}
+
+/* New Text Styles */
+.protect-text {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.advanced-features {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.advanced-features h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.advanced-features p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.use-ease {
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.use-ease h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.use-ease p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: left;
+}
